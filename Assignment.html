@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      h3, h4 { margin: 0px; }
+        .item {
+          padding: 10px; width: 240px; border-style:hidden; background-color: rgba( 240, 240, 240, 0.9 ); margin: 10px; font-family: Arial, Helvetica, sans-serif; font-weight:normal; font-size: 100;
+      }
+        .file{
+          padding: 10px; background-color: white; margin: 10px; cursor: pointer;  line-height: 14px; font-family: Arial, Helvetica, sans-serif;  
+        }
+        .extra{
+        margin-left: 10px;margin-right: 10px; cursor: pointer;display: flex; font-weight: lighter; font-size: 15px;
+      }
+    </style>
+</head>
+<body>
+    <section>
+        <div>
+            <div style="display: flex; align-content: space-between;background-color: rgba( 64, 144, 172, 0.65 );   padding: 11px; margin: 0px; color: white; width: 100%; position: fixed;">
+            <div style="text-align: justify;">
+             <button class=extra style="background-color:rgba(64, 160, 172, 0.644) ;padding: 8px; margin-right: 8px; display: inline-block; color: white; text-align: center; letter-spacing: normal; word-spacing: normal; text-indent: 0; box-sizing: border-box; border: 0px;">
+                Home
+             </button>
+            <button class=extra style="background-color:rgba(64, 160, 172, 0.644) ;padding: 8px; margin-right: 8px; display: inline-block; color: white; text-align: center; letter-spacing: normal; word-spacing: normal; text-indent: 0; box-sizing: border-box; border: 0px;">
+                Boards
+            </button>
+         </div>
+         <div>
+           <h3 style="font-family:cursive ; text-align: center;   margin: 0px; color: white; width: 80%; position: fixed;">
+               Tralala
+           </h3>
+           </div>
+        <div style="justify-content: right; text-align: right;">
+        <button class=extra style="background-color:rgba(64, 160, 172, 0.644) ;padding: 8px; margin-right: 8px; display: flexbox; color: white; text-align: right; justify-content: right; letter-spacing: normal; word-spacing: normal; text-indent: 0; box-sizing: border-box; border: 0px;">
+            +
+        </button>
+     </div>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <div style=" align-content: space-between; display: flex;">
+            <div style="display: flex;">
+            <h4 style= " background-color: rgba( 128, 128, 128, 0.3 ); font-family: Arial, Helvetica, sans-serif;padding: 20px;
+            margin: 0px; font-weight:normal; color: white; width: 100%; position: fixed;">
+                Frontend Training
+            </h4>
+        </div>
+        <div style="display: flex;">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h4 style= " background-color: rgba(128, 128, 128, 0.151); font-family: Arial, Helvetica, sans-serif;padding: 20px;
+            margin: 0px; font-weight:normal; color: white; width: 98%; position: fixed; text-align: right;">
+                Show Menu
+            </h4>
+            
+            <br/>
+            <br/>
+            <br/>
+        </div>
+    </section>
+    <section class="container">
+            <div class=item >
+            <div style="display: flex; justify-content: space-evenly;">
+                <h3 id=item style="width: 50px;">
+                To Do
+            </h3>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="extra" style="font-weight: bold;">...</span>
+        </div>
+            <div class=file>Learn HTML</div>
+              <div class=file>Learn Java Script</div>
+              <div class=file>Learn CSS</div>
+              <div class="extra">+ Add another card</div>
+        </div>  
+        <div class=item>
+            <div style="display: flex; justify-content: space-evenly;">
+              <h3 id=item>
+                  Doing
+              </h3>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <span class="extra" style="font-weight: bold;">...</span>  
+            </div>
+            <textarea class=file rows="3" placeholder="Enter list title..." style="width: 188px; height: 51px;"></textarea>
+            <div class=file>
+                Preparing Resume
+            </div>
+            <div class="extra">+ Add another card</div>
+        </div>
+        <div class=item>
+            <div  style="display: flex; justify-content: space-evenly;">
+                <h3 id=item>
+                    Testing/Verifying
+                </h3>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="extra" style="font-weight: bold;">...</span>
+            </div>
+                <div class=file>Twitter App Frontend</div>
+                <div class="extra">+ Add another card</div>
+            </div>
+            <div class=item>
+                <div style="display: flex; justify-content: space-evenly;">
+                <h3 id=item>
+                    Deploying
+                </h3>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="extra" style="font-weight: bold;">...</span>
+            </div>
+                <div class=file>Twitter App Backend</div>
+                <div class="extra">+ Add another card</div>
+            </div>
+          <div class=item>
+              <div  style="display: flex; justify-content: space-evenly;">
+              <h3 id=item>
+                  Done
+              </h3>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="extra" style="font-weight: bold;">...</span>
+            </div>
+              <div class=extra style="justify-content: space-between;">+ Add card</div>
+          </div>  
+          <div class=item>
+              <div  style="display: flex; justify-content: space-between; text-align: left;">
+            <div class="extra">+Add another list</div>
+        </div>
+    </div>
+        <div class="item" style="width: 210px; height: 130px;">
+            <textarea class=file rows="3" placeholder="Enter list title..." style="width: 188px; height: 51px;"></textarea>
+        <div>
+            <button class=extra style="padding: 8px; margin-right: 8px; width: 76.672px; height: 36px; background-color: olive; display: inline-block; color: white; text-align: center; letter-spacing: normal; word-spacing: normal; text-indent: 0; box-sizing: border-box; border: 0px;">
+                Add List
+            </button>
+        </div>
+        </div>
+    
+    </section>
+</body>
+</html>
